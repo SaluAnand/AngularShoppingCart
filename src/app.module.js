@@ -30,6 +30,20 @@ function($stateProvider,$urlRouterProvider){
         component : 'addProduct'
     });
     $stateProvider.state({
+        name : 'showProductsInfo',
+        url : '/product-details/{productId}',
+        component : 'productDetails',
+        resolve: {
+            product: ['productService','$transition$', 
+            function(productService,$transition$){
+                var params = $transition$.params();
+                var productId = params.productId;
+                return productService
+                        .getProductDetails(productId);
+            }]
+        }
+    });
+    $stateProvider.state({
         name : 'cart',
         url : '/cart',
         component : 'cart'

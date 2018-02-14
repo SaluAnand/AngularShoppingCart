@@ -11,14 +11,14 @@
       "id": 2, 
       "title": "one plus 5", 
       "company": "onePlus",
-      "price": 100,
+      "price": 200,
       "imgUrl": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/M/KY/MKY12/MKY12_AV1_SPACE_GRAY?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1486508177703" 
   },
   { 
     "id": 3, 
     "title": "MI", 
     "company": "Mi",
-    "price": 100,
+    "price": 300,
     "imgUrl": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/M/KY/MKY12/MKY12_AV1_SPACE_GRAY?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1486508177703" 
 }
   ]

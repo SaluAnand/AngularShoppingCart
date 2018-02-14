@@ -1,1 +1,8 @@
-<h2>Product details</h2>
+<h2>Product</h2>
+<div  class="product">
+    <h3 ng-bind="$ctrl.product.title"></h3>
+    <img width="80" height="100" ng-src="{{$ctrl.product.imgUrl}}" alt="">
+    <div>
+        <span class="price" ng-bind="$ctrl.product.price | currency"></span>   
+    </div>
+</div>
