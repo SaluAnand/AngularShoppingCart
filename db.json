@@ -1,25 +1,32 @@
 {
   "products": [
-    { 
-        "id": 1, 
-        "title": "IPhone 6", 
-        "company": "Apple",
-        "price": 100,
-        "imgUrl": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/M/KY/MKY12/MKY12_AV1_SPACE_GRAY?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1486508177703" 
+    {
+      "id": 1,
+      "title": "IPhone 6",
+      "company": "Apple",
+      "price": 100,
+      "imgUrl": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/M/KY/MKY12/MKY12_AV1_SPACE_GRAY?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1486508177703"
     },
-    { 
-      "id": 2, 
-      "title": "one plus 5", 
+    {
+      "id": 2,
+      "title": "one plus 5",
       "company": "onePlus",
       "price": 200,
-      "imgUrl": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/M/KY/MKY12/MKY12_AV1_SPACE_GRAY?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1486508177703" 
-  },
-  { 
-    "id": 3, 
-    "title": "MI", 
-    "company": "Mi",
-    "price": 300,
-    "imgUrl": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/M/KY/MKY12/MKY12_AV1_SPACE_GRAY?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1486508177703" 
-}
+      "imgUrl": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/M/KY/MKY12/MKY12_AV1_SPACE_GRAY?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1486508177703"
+    },
+    {
+      "id": 3,
+      "title": "MI",
+      "company": "Mi",
+      "price": 300,
+      "imgUrl": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/M/KY/MKY12/MKY12_AV1_SPACE_GRAY?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1486508177703"
+    },
+    {
+      "title": "Pixel",
+      "company": "Google",
+      "price": 300,
+      "imgUrl": "data:image/jpeg;base64,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",
+      "id": 4
+    }
   ]
 }

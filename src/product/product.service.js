@@ -4,8 +4,8 @@ angular.module('shoppingcart.product')
         this.getProducts = function(){
         return $http.get(AppConstant.urls.product);
         };
-        this.addProducts = function(){
-
+        this.addProduct = function(productDetails){
+            return $http.post(AppConstant.urls.product,productDetails);
         };
         this.getProductDetails = function(productId){
             return $http.get(AppConstant.urls.product+'/'+productId)
