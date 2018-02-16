@@ -31,3 +31,10 @@ npm install webpack --save.dev
 
 webpack - to create the corresponding javascript file for nodejs file
 berbel - loader which can be used to convert ES6 to ES5
+
+angular CLI
+-------------
+npm install -g @angular/cli - to manage the package and all eaisly
+ng new "applicationName" - 
+karma.conf - for running unit testing(module testing)
+protractor.conf - end to end testing
