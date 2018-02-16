@@ -38,3 +38,6 @@ npm install -g @angular/cli - to manage the package and all eaisly
 ng new "applicationName" - 
 karma.conf - for running unit testing(module testing)
 protractor.conf - end to end testing
+
+interceptors
+------------------
