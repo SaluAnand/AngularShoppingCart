@@ -6,10 +6,19 @@
         <label for="title">Title</label>
         <input 
         ng-model="$ctrl.newProduct.title" 
+        prod-title
         required 
         minlength="3"
         type="text" 
-        name="title">
+        name="title"
+        ng-model-options="{ updateOn: 'default blur', debounce: { default: 500, blur: 0 } }">
+
+        <span ng-if="addProductForm.title.$error.prodTitle">
+            Cannot starts with 'a'
+        </span>
+        <span ng-if="addProductForm.title.$error.prodAvailability">
+            product allready available
+        </span>
         <span ng-if="addProductForm.title.$error.required">
             This field is required
         </span>
@@ -32,7 +41,6 @@
             <label for="imgUrl">Image url</label>
             <input type="text" ng-model="$ctrl.newProduct.imgUrl" name="imgUrl">
     </div>
-    {{$ctrl.newProduct}}
     <div>
         <input type="submit" value="Add Product">
         <input type="reset" value="Reset">
